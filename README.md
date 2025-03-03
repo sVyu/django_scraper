@@ -34,7 +34,7 @@
 python manage.py runserver
 ```
 
-<details>
+<details open>
 <br/>
 <summary>그 외 cmd 주요 명령어들</summary>
 <table>
