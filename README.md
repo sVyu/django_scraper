@@ -1,76 +1,95 @@
-# django based web scraper/crawler project
-<img src="./images_for_readme/web_page_on_final.png">
-<br/>
-<br/>
-
-# Package list & Version
-<table align="center">
-<tr>
-<td>
-<img src="./images_for_readme/pip_list.png">
-</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td>
-<p align="center">
-<h3 align="center">DJango # 4.2</h3>
-<h3 align="center">requests # 2.32.3</h3>
-<h3 align="center">beautifulsoup4 # 4.13.3</h3>
-<p>
-</td>
-</tr>
+## ğŸ“‘ django based web scraper/crawler project
+<table>
+  <tr>
+    <td>
+      <img src="./images_for_readme/web_page_on_dev.png" height="350px">
+    </td>
+    <td>
+      <img src="./images_for_readme/web_page_on_final.png" height="350px">
+    </td>
+  </tr>
 </table>
 <br/>
+
+
+## âœ Package list & Version
+<table>
+  <tr>
+    <td>
+      <img src="./images_for_readme/pip_list.png">
+    </td>
+    <td>
+      <p align="center">
+        <h3 align="center">DJango # 4.2</h3>
+        <h3 align="center">requests # 2.32.3</h3>
+        <h3 align="center">beautifulsoup4 # 4.13.3</h3>
+      <p>
+    </td>
+  </tr>
+</table>
 <br/>
 
-# ÃÖÁ¾ È­¸é
-
-
-## ÇÁ·ÎÁ§Æ® ½ÇÇà
+## ğŸš€ í”„ë¡œì íŠ¸ ì‹¤í–‰
 ```shell
 python manage.py runserver
 ```
 
 <details>
-<summary>cmd Ã¢ ÁÖ¿ä ¸í·É¾îµé</summary>
-
-- project »ı¼º : `django-admin startproject config`
-- app »ı¼º : `django-admin startapp myapp`
-- model ¼öÁ¤ : `python manage.py makemigrations`
-- db¿¡ ¹İ¿µ : `python manage.py migrate`
-- superuser »ı¼º : `python manage.py createsuperuser`
+<br/>
+<summary>ê·¸ ì™¸ cmd ì£¼ìš” ëª…ë ¹ì–´ë“¤</summary>
+<table>
+  <tr>
+    <td>project ìƒì„±</td>
+    <td>django-admin startproject config</td>
+  </tr>
+  <tr>
+    <td>app ìƒì„±</td>
+    <td>django-admin startapp myapp</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>model ìˆ˜ì •</td>
+    <td>python manage.py makemigrations</td>
+  </tr>
+  <tr>
+    <td>db ë°˜ì˜</td>
+    <td>python manage.py migrate</td>
+  </tr>
+  </tr>
+  <tr>
+    <td>superuser ìƒì„±</td>
+    <td>python manage.py createsuperuser</td>
+  </tr>
+</table>
 </details>
 <br>
-<br>
 
-
-# superuser cmd ¹× administration ÆäÀÌÁö
-<p align="center">
-<img src="./images_for_readme/make_superuser.png">
-<img src="./images_for_readme/show_superuser_page.png">
-</p>
-
-
-# °³¹ß °úÁ¤ capture
-<img src="./images_for_readme/project_default_setting.png">
-<img src="./images_for_readme/web_page_on_dev.png">
-<br/>
+## ğŸ‘¨â€ğŸ’» superuser cmd ë° administration í˜ì´ì§€
+<table>
+  <tr>
+    <td>
+      <img src="./images_for_readme/make_superuser.png">
+    </td>
+    <td>
+      <img src="./images_for_readme/show_superuser_page.png" width="600px">
+    </td>
+  </tr>
+</table>
 <br/>
 
+## ğŸ›  error handling
+> [!important]
+> adress -> address ì˜¤íƒ€ ìˆ˜ì • ë° re-migration
+> <img src="./images_for_readme/adress_to_address.png">
 
-# error handling
-> &nbsp; (1) adress -> address ¼öÁ¤ ¹× re-migrate
-<img src="./images_for_readme/adress_to_address.png">
-
-> &nbsp;(2) POST ¿äÃ»¿¡ ´ëÇØ¼­ try-catch Ãß°¡ # ºñÁ¤»óÀûÀÎ url ¿äÃ» µî¿¡ ´ëÇÑ ´ëºñ
-<img src="./images_for_readme/add_try_catch.png">
+> [!caution]
+> POST ìš”ì²­ì— ëŒ€í•´ì„œ try-catch ì¶”ê°€ # ë¹„ì •ìƒì ì¸ url ìš”ì²­ ë“±ì— ëŒ€í•œ ëŒ€ë¹„
+> <img src="./images_for_readme/add_try_catch.png">
 <br/>
-<br/>
 
-
-
-# ref
+## ğŸ“š ref
 - <a target="_blank" href="https://www.udemy.com/course/django-course/">Django Masterclass : Build 9 Real World Django Projects</a>
-- <a target="_blank" href="https://wikidocs.net/72377">Á¡ÇÁ Åõ Àå°í - Àå°í ÇÁ·ÎÁ§Æ® »ı¼ºÇÏ±â</a><br/><br/>
+- <a target="_blank" href="https://wikidocs.net/72377">ì í”„ íˆ¬ ì¥ê³  - ì¥ê³  í”„ë¡œì íŠ¸ ìƒì„±í•˜ê¸°</a><br/><br/>
 - <a target="_blank" href="https://docs.djangoproject.com/en/5.1/ref/databases/#sqlite-notes">Django docs # supports SQLite 3.31.0 and later</a>
 - <a target="_blank" href="https://docs.djangoproject.com/en/5.1/topics/db/models/">Django docs # models</a>
 - <a target="_blank" href="https://docs.djangoproject.com/en/5.1/topics/migrations/">Django docs # migrations</a><br/><br/>
