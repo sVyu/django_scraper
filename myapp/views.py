@@ -9,7 +9,6 @@ def scrape(request):
         site = request.POST.get('site', '')
 
         try:
-        # page = requests.get('https://www.facebook.com')
             page = requests.get(site)
             soup = BeautifulSoup(page.text, 'html.parser')
         except BaseException as e:
