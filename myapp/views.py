@@ -8,9 +8,13 @@ def scrape(request):
     if request.method == "POST":
         site = request.POST.get('site', '')
 
+        try:
         # page = requests.get('https://www.facebook.com')
-        page = requests.get(site)
-        soup = BeautifulSoup(page.text, 'html.parser')
+            page = requests.get(site)
+            soup = BeautifulSoup(page.text, 'html.parser')
+        except BaseException as e:
+            print('exception occured', e)
+            return HttpResponseRedirect('/')
 
         # link_address = []
         # for link in soup.find_all('a'):
