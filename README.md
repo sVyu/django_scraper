@@ -73,6 +73,10 @@ python manage.py runserver
     </td>
   </tr>
 </table>
+<details>
+  <summary>Password</summary>
+  　└ superuser
+</details>
 <br/>
 
 ## 🛠 error handling
