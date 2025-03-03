@@ -2,10 +2,10 @@
 <table>
   <tr>
     <td>
-      <img src="./images_for_readme/web_page_on_dev.png" height="350px">
+      <img src="./images_for_readme/web_page_on_dev.png" height="350px"/>
     </td>
     <td>
-      <img src="./images_for_readme/web_page_on_final.png" height="350px">
+      <img src="./images_for_readme/web_page_on_final.png" height="375px"/>
     </td>
   </tr>
 </table>
@@ -16,7 +16,7 @@
 <table>
   <tr>
     <td>
-      <img src="./images_for_readme/pip_list.png">
+      <img src="./images_for_readme/pip_list.png"/>
     </td>
     <td>
       <p align="center">
@@ -68,10 +68,10 @@ python manage.py runserver
 <table>
   <tr>
     <td>
-      <img src="./images_for_readme/make_superuser.png">
+      <img src="./images_for_readme/make_superuser.png"/>
     </td>
     <td>
-      <img src="./images_for_readme/show_superuser_page.png" width="600px">
+      <img src="./images_for_readme/show_superuser_page.png" width="600px"/>
     </td>
   </tr>
 </table>
@@ -79,12 +79,12 @@ python manage.py runserver
 
 ## 🛠 error handling
 > [!important]
-> adress -> address 오타 수정 및 re-migration
-> <img src="./images_for_readme/adress_to_address.png">
+> adress -> address 오타 수정 및 re-migration  
+> <img src="./images_for_readme/adress_to_address.png" width="600px" />
 
 > [!caution]
 > POST 요청에 대해서 try-catch 추가 # 비정상적인 url 요청 등에 대한 대비
-> <img src="./images_for_readme/add_try_catch.png">
+> <img src="./images_for_readme/add_try_catch.png" width="600px" />
 <br/>
 
 ## 📚 ref
