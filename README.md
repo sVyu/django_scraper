@@ -40,12 +40,11 @@ python manage.py runserver
 <table>
   <tr>
     <td>project 생성</td>
-    <td>django-admin startproject config</td>
+    <td>django-admin startproject config .</td>
   </tr>
   <tr>
     <td>app 생성</td>
     <td>django-admin startapp myapp</td>
-  </tr>
   </tr>
   <tr>
     <td>model 수정</td>
@@ -54,7 +53,6 @@ python manage.py runserver
   <tr>
     <td>db 반영</td>
     <td>python manage.py migrate</td>
-  </tr>
   </tr>
   <tr>
     <td>superuser 생성</td>
